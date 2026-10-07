@@ -1,0 +1,51 @@
+:root{--bg:#0d1138;--ink:#f3f3fc;--mut:#b4b8dc;--gold:#FFC93C;--vio:#7c5cff;--pink:#ff5fa2;--d:"Bricolage Grotesque","Trebuchet MS",sans-serif;--b:"Figtree","Segoe UI",sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:1.05rem/1.7 var(--b);color:var(--ink);background:radial-gradient(60rem 40rem at 80% -10%,#3a2a9a66,transparent),radial-gradient(50rem 40rem at -10% 45%,#ff5fa233,transparent),var(--bg);min-height:100vh;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.w{max-width:66rem;margin:auto;padding:0 1.4rem}
+header{position:sticky;top:0;z-index:9;backdrop-filter:blur(14px);background:#0d113899;border-bottom:1px solid #ffffff1a}
+header .w{display:flex;justify-content:space-between;align-items:center;height:4rem}
+.logo{font:800 1.3rem var(--d);text-decoration:none;letter-spacing:-.02em}
+nav{display:flex;gap:1.4rem}
+nav a{text-decoration:none;color:var(--mut);font-weight:600;font-size:.95rem}
+nav a:hover,nav a.on{color:var(--gold)}
+#t{display:none;background:0;border:1px solid #fff5;color:var(--ink);padding:.4rem .9rem;border-radius:.4rem;font:inherit}
+@media(max-width:700px){#t{display:block}nav{display:none;position:absolute;top:4rem;left:0;right:0;flex-direction:column;background:#0d1138f5;padding:1rem 1.4rem;gap:1rem}nav.open{display:flex}}
+.hero{position:relative;padding:6rem 0 5rem;overflow:hidden;isolation:isolate}
+.orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;animation:fl 14s ease-in-out infinite alternate;z-index:-1}
+.o1{width:26rem;height:26rem;background:var(--vio);top:-6rem;right:-4rem}
+.o2{width:20rem;height:20rem;background:var(--pink);bottom:-5rem;left:-3rem;animation-delay:-6s}
+.o3{width:12rem;height:12rem;background:var(--gold);top:40%;left:55%;animation-delay:-3s;opacity:.3}
+@keyframes fl{to{transform:translate(-3rem,3rem) scale(1.15)}}
+h1{font:800 clamp(3.4rem,14vw,9.5rem)/.92 var(--d);letter-spacing:-.04em;background:linear-gradient(100deg,var(--gold),var(--pink),var(--vio),var(--gold));background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 9s linear infinite}
+h1.s{font-size:clamp(2.6rem,9vw,5.5rem);margin-bottom:1rem}
+@keyframes sh{to{background-position:300% 0}}
+.lead{font:500 clamp(1.15rem,3vw,1.6rem)/1.4 var(--d);max-width:34ch;margin:1.5rem 0 2rem;animation:up 1s .3s both}
+@keyframes up{from{opacity:0;transform:translateY(24px)}}
+.btn{display:inline-block;padding:.8rem 1.5rem;border-radius:99px;font-weight:600;text-decoration:none;border:1px solid #fff6;margin:0 .6rem .8rem 0;transition:.25s}
+.btn.p{background:linear-gradient(100deg,var(--gold),var(--pink));color:#1a1030;border:0}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px #7c5cff66}
+.mq{overflow:hidden;border-block:1px solid #ffffff1a;padding:.9rem 0;white-space:nowrap}
+.mq div{display:inline-block;animation:mq 32s linear infinite;font:800 1.5rem var(--d);color:#ffffff50}
+.mq span{margin:0 1.4rem}.mq b{color:var(--gold)}
+@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:4rem 0}
+h2{font:800 clamp(1.8rem,5vw,2.6rem)/1.1 var(--d);letter-spacing:-.02em;margin-bottom:1.2rem}
+p{max-width:62ch;margin-bottom:1rem;color:var(--mut)}
+.g{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.c{display:block;padding:1.7rem;border-radius:1.2rem;background:linear-gradient(160deg,#ffffff16,#ffffff05);border:1px solid #ffffff22;text-decoration:none;transition:.3s}
+.c:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 18px 40px #0006}
+.c h3{font:800 1.5rem var(--d);margin-bottom:.4rem;color:var(--ink)}
+.c p{margin:0}
+.tl{border-left:2px solid #ffffff33;padding-left:1.5rem;display:grid;gap:1.6rem;margin-top:1.5rem}
+.tl div{position:relative}
+.tl div:before{content:"";position:absolute;left:-2rem;top:.55rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px #ffc93c33}
+.tl b{color:var(--gold);font-family:var(--d)}
+.tl p{margin:0}
+footer{border-top:1px solid #ffffff1a;padding:2rem 0;color:var(--mut);font-size:.95rem}
+footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
