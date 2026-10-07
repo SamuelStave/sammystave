@@ -1,0 +1,141 @@
+{
+  "profile": {
+    "name": "Sammystave",
+    "tagline": "Gospel across every sound.",
+    "shortBio": "Sammystave is a Nigerian gospel songwriter, music producer, web developer and founder. Blending gospel with diverse sounds beyond Afro-gospel, he writes, produces and builds platforms that amplify talent and enterprise.",
+    "fullBio": "Sammystave (Samuel Obaze) is a Nigerian gospel songwriter, music producer, web developer and founder based in Minna, Nigeria. His work sits at the intersection of music, technology and enterprise. As an artist, he crafts gospel across many styles - Afro-fusion, contemporary, praise and introspective worship - refusing to be boxed into one sound. As a founder, he is building Stave Industries Inc., a holding company designed to unfold Nigeria's potential, talent and resources. Two of its first engines are RGPN (Rap, Gospel and Praise Nation), a gospel label to house and groom talent, and Spelbum, an e-commerce economics initiative built on one idea: spend less, buy more.",
+    "photo": "/images/sammystave.jpg",
+    "email": "contact@sammystave.me",
+    "location": "Minna, Niger State, Nigeria"
+  },
+  "platforms": {
+    "spotify": "https://open.spotify.com/artist/REPLACE_ME",
+    "boomplay": "https://www.boomplay.com/artists/REPLACE_ME",
+    "youtubeMusic": "https://music.youtube.com/channel/REPLACE_ME",
+    "youtube": "https://youtube.com/@sammystave",
+    "soundcloud": "https://soundcloud.com/sammystave",
+    "instagram": "https://instagram.com/sammystave",
+    "tiktok": "https://tiktok.com/@sammystave",
+    "facebook": "https://facebook.com/sammystave"
+  },
+  "songs": [
+    {
+      "title": "Lifted",
+      "year": "2024",
+      "type": "Single - Latest",
+      "cover": "/covers/lifted.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "Close",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/close.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "GOD",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/god.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "Pariwo",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/pariwo.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "Away",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/away.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "See",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/see.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    },
+    {
+      "title": "Eli Jah",
+      "year": "2023",
+      "type": "Single",
+      "cover": "/covers/elijah.jpg",
+      "spotify": "",
+      "boomplay": "",
+      "youtube": ""
+    }
+  ],
+  "embeds": {
+    "spotifyEmbed": "https://open.spotify.com/embed/artist/REPLACE_ME",
+    "youtubeIds": [
+      "REPLACE_WITH_VIDEO_ID_1",
+      "REPLACE_WITH_VIDEO_ID_2"
+    ],
+    "tiktokUrls": [
+      "https://www.tiktok.com/@sammystave/video/REPLACE_ME"
+    ],
+    "instagramUrls": [
+      "https://www.instagram.com/p/REPLACE_ME/"
+    ]
+  },
+  "ventures": [
+    {
+      "id": "stave-industries",
+      "name": "Stave Industries Inc.",
+      "tagline": "Parent Company",
+      "short": "A holding company being built to bring many business subsidiaries together, to unfold and develop Nigeria's potential, talent and resources.",
+      "long": "Stave Industries Inc. is the parent. Its mission is to identify gaps in Nigeria's creative and commercial ecosystem and build subsidiaries that fill them - from music and talent development to commerce and technology. RGPN and Spelbum are its first engines.",
+      "status": "Building",
+      "focus": [
+        "Holding",
+        "Talent",
+        "Commerce",
+        "Technology"
+      ]
+    },
+    {
+      "id": "rgpn",
+      "name": "RGPN",
+      "tagline": "Rap, Gospel and Praise Nation",
+      "short": "A gospel record label that will house talent, groom them and present them to the world.",
+      "long": "RGPN is a label and grooming system. Beyond recording, it handles artist development, songwriting, production, branding and distribution - built for the next generation of Nigerian gospel voices who don't fit a single sound.",
+      "status": "Launching",
+      "focus": [
+        "Record Label",
+        "Artist Development",
+        "Publishing"
+      ]
+    },
+    {
+      "id": "spelbum",
+      "name": "Spelbum",
+      "tagline": "Spend less, buy more",
+      "short": "An e-commerce and economics initiative built around one idea: spend less, buy more.",
+      "long": "Spelbum is an e-commerce and economics experiment. The thesis: if people can spend less but get more value through smart bundling, group buying and local supply, commerce grows. Built for Nigeria's real buying habits.",
+      "status": "In Development",
+      "focus": [
+        "E-commerce",
+        "Economics",
+        "Consumer Value"
+      ]
+    }
+  ]
+}
